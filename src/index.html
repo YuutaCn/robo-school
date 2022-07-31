@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html',{
+  'title':'Robo School'
+})
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      @include('partials/hero.html')
+      @include('partials/about.html')
+      @include('partials/give.html')
+      @include('partials/trainers.html')
+      @include('partials/price.html')
+      @include('partials/submit-form.html')
+
+
+    </main>
+
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+    @include('partials/modals.html')
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+.trainers {
+  padding-top: 120px;
+  overflow: visible;
+  h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+    color: var(--dark-color);
+    margin-bottom: 60px;
+  }
+}
+
+.container-swiper {
+  margin-left: 380px;
+}
+
+
+.trainer-item {
+  min-width: 390px;
+  img {
+    width: 360px;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--dark-color);
+    margin-bottom: 12px;
+  }
+  p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  .btn-more {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--accent-color);
+    cursor: pointer;
+  }
+}
+
+.swiper {
+  height: 765px;
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  width: 360px;
+  left: 0px;
+  bottom: 40px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--light-color);
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    background: var(--dark-color);
+    border-radius: 100%;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--light-color);
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-prev {
+  background: var(--dark-color);
+  border-radius: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  margin-top: 325px;
+  width: 35px;
+  height: 35px;
+}
+
+.swiper-button-next {
+  right: 392px;
+}
+
+.swiper-button-prev {
+  left: 1062px;
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 1919px) {
+  .container-swiper {
+    margin-left: 8rem;
+  }
+  .swiper-button-next {
+    right: 23%;
+  }
+  .swiper-button-prev {
+    left: 70%;
+  }
+}
+
+@media screen and (min-width: 1099px) and (max-width: 1440px) {
+  .container-swiper {
+    margin-left: 6rem;
+  }
+  .swiper-button-next {
+    right: 20%;
+  }
+  .swiper-button-prev {
+    left: 70%;
+  }
+}
