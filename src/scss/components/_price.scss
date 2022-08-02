@@ -1,0 +1,228 @@
+.price__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  h2 {
+    margin: 0;
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+    margin-bottom: 80px;
+  }
+}
+
+.price__elements {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.price-element,
+.price-element-2,
+.price-element-3 {
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 460px;
+  border: solid 1px #141024;
+  border-radius: 20px;
+  align-items: center;
+  padding-bottom: 38px;
+  h3 {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    margin-top: 40px;
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    &::after {
+      content: ' ';
+      display: flex;
+      width: 20px;
+      height: 3px;
+      background: var(--dark-color);
+    }
+    &::before {
+      content: ' ';
+      display: flex;
+      width: 20px;
+      height: 3px;
+      background: var(--dark-color);
+    }
+  }
+  p {
+    margin: 0;
+    margin-top: 63px;
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 160%;
+  }
+  span {
+    margin: 0;
+    margin-top: 20px;
+    color: var(--dark-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+  }
+  a {
+    margin-top: auto;
+  }
+  button {
+    margin: 0;
+    margin-top: auto;
+    width: 280px;
+    height: 79px;
+    background-color: var(--accent-color);
+    border: 0px solid var(--accent-color);
+    color: var(--light-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 660px) {
+  .price__container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      margin: 0 !important;
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px !important;
+      line-height: 140%;
+      margin-bottom: 40px !important;
+    }
+  }
+  .price__elements {
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+  }
+  .price-element,
+  .price-element-2,
+  .price-element-3 {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 394px;
+    border: solid 1px #141024;
+    border-radius: 20px;
+    align-items: center;
+    padding-bottom: 38px;
+    h3 {
+      margin-top: 40px;
+    }
+    p {
+      margin: 0;
+      margin-top: 40px;
+    }
+    span {
+      margin: 0;
+      margin-top: 20px;
+      color: var(--dark-color);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      text-align: center;
+    }
+    a {
+      margin-top: auto;
+    }
+    button {
+      margin: 0;
+      margin-top: auto;
+      width: 260px;
+      height: 60px;
+      font-size: 16px;
+    }
+  }
+  .price-element-3 {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 1079px) {
+  .price__container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      margin: 0 !important;
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px !important;
+      line-height: 140%;
+      margin-bottom: 40px !important;
+    }
+  }
+  .price__elements {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px !important;
+  }
+  .price-element,
+  .price-element-2,
+  .price-element-3 {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 394px;
+    border: solid 1px #141024;
+    border-radius: 20px;
+    align-items: center;
+    padding-bottom: 38px;
+    h3 {
+      margin-top: 40px;
+    }
+    p {
+      margin: 0;
+      margin-top: 40px;
+    }
+    span {
+      margin: 0;
+      margin-top: 20px;
+      color: var(--dark-color);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      text-align: center;
+    }
+    a {
+      margin-top: auto;
+    }
+    button {
+      margin: 0;
+      margin-top: auto;
+      width: 260px;
+      height: 60px;
+      font-size: 16px;
+    }
+  }
+  .price-element-3 {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1099px) {
+  .price__h2 {
+    font-weight: 600;
+    font-size: 30px !important;
+  }
+
+}
