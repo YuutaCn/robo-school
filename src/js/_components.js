@@ -8,5 +8,6 @@ import './components/price-int.js'
 import './components/validation.js'
 import './components/form-int.js'
 import './components/on-entry.js'
+import './components/borger.js'
 
 

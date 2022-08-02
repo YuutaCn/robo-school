@@ -47,3 +47,10 @@
     content: '+';
   }
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 1099px) {
+  .header {
+    display: none;
+  }
+}

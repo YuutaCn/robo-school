@@ -92,6 +92,11 @@ a {
   // max-width: var(--container-fluid-width);
 }
 
+.mob-container {
+  width: 100%;
+  padding: 0px 10px;
+}
+
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }

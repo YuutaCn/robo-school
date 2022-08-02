@@ -26,3 +26,26 @@
     line-height: 160%;
   }
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .footer {
+    flex-direction: column !important;
+    height: 197px;
+    justify-content: space-around;
+    a:nth-child(2) {
+      color: var(--light-color);
+      position: relative;
+      bottom: 0px;
+    }
+  }
+  .logo-footer {
+    align-items: center;
+    span {
+      font-weight: 400;
+      font-size: 14px !important;
+      line-height: 160% !important;
+
+    }
+  }
+}

@@ -7,6 +7,7 @@
 
 <body class="page__body">
   <div class="site-container">
+    @include('partials/borger.html')
     @include('partials/header.html')
     <main class="main">
       @include('partials/hero.html')
@@ -15,14 +16,11 @@
       @include('partials/trainers.html')
       @include('partials/price.html')
       @include('partials/submit-form.html')
-
-
     </main>
-
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
-    @include('partials/modals.html')
 
+    @include('partials/modals.html')
+    @include('partials/borger-menu.html')
   </div>
 </body>
 

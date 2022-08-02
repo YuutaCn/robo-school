@@ -30,7 +30,7 @@ btnInt.forEach(el => {
 
   el.addEventListener('click', () => {
     el.style.transition = 'all 100ms var(--default-cubic)';
-    el.style.transform = 'scale(0.95, 0.95)';
+    el.style.transform = 'scale(0.98, 0.98)';
     el.style.border = '0px solid var(--accent-color)';
     el.style.background = 'var(--accent-color)';
     setTimeout(() => {
